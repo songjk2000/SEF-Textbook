@@ -51,7 +51,7 @@
             .title{margin-bottom:24px}
             .list-wrapper{width:95%; margin-bottom:24px;}
             .list-table {padding:8px}
-            .list-table td.file, .list-table th.file{max-width:80px}
+            .list-table td.file, .list-table th.file{margin-left:1em;text-indent:-1em;max-width:80px}
             .list-table td.updated_at, .list-table td.size, .list-table th.updated_at, .list-table th.size{white-space:nowrap;}
         }
     </style>
