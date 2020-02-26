@@ -33,7 +33,7 @@
         .list-table tr[data-to]:hover{background:rgba(85,85,85,0.7);color:white;}
         .list-table tr[data-to]:hover a{color:white}
         .list-table tr:first-child{background:rgba(245,245,245,0)}
-        .list-table td,.list-table th{padding:0 10px;text-align:left}
+        .list-table td,.list-table th{padding:0;text-align:left}
         .list-table .size,.list-table .updated_at{text-align:right}
         .mask{position:absolute;left:0px;top:0px;width:100%;background-color:#000;filter:alpha(opacity=50);opacity:0.5;z-index:2;}
 <?php if ($_SERVER['admin']) { ?>
@@ -514,6 +514,9 @@
             </center>
         </div>
 	</div>
+<?php   }
+    } ?>
+    <div style="color: rgba(247,247,249,0);"><?php echo date("Y-m-d H:i:s")." ".getconstStr('Week')[date("w")]." ".$_SERVER['REMOTE_ADDR'];?></div>
 </body>
 <?php if ($files) { ?>
 <?php if ($head||$readme) { ?><link rel="stylesheet" href="//unpkg.zhimg.com/github-markdown-css@3.0.1/github-markdown.css">
@@ -544,10 +547,17 @@
         e.innerHTML = e.innerHTML.replace(/\s\/\s$/, '')
     });
     
+    function changelanguage(str)
+    {
+        if (str=='Language') str = '';
+        document.cookie='language='+str+'; path=/';
+        location.href = location.href;
+    }
     var $head = document.getElementById('head');
     if ($head) {
         document.getElementById('head-div').parentNode.insertBefore(document.getElementById('head-div'),document.getElementById('list-div'));
         $head.innerHTML = marked(document.getElementById('head-md').innerText);
+        
     }
     var $readme = document.getElementById('readme');
     if ($readme) {
