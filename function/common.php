@@ -593,7 +593,7 @@ function list_files($path)
 {
     $path = path_format($path);
     if ($_SERVER['is_guestup_path']&&!$_SERVER['admin']) {
-        $files = json_decode('{"folder":{}}', true);
+        $files = fetch_files($path);
     } elseif ($_SERVER['ishidden']==4) {
         $files = json_decode('{"folder":{}}', true);
     } else {
