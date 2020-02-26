@@ -17,8 +17,8 @@
         .changelanguage{position:absolute;right:5px;}
         .title{text-align:center;height:10%;letter-spacing:2px;}
         .title a{color:#FFFFFF;text-decoration:none}
-        .list-wrapper{min-height:800px;width:80%;margin:0 auto;position:relative;border-radius:15px;}
-        .list-container{height:100%;background-color:#FFFFFF;position:relative;overflow:hidden;border-radius:15px;}
+        .list-wrapper{width:80%;margin:0 auto;position:relative;border-radius:15px;}
+        .list-container{min-height:800px;background-color:#FFFFFF;position:relative;overflow:hidden;border-radius:15px;}
         .list-header-container{position:relative}
         .list-header-container a.back-link{color:#000;display:inline-block;position:absolute;font-size:16px;margin:20px 10px;padding:10px 10px;vertical-align:middle;text-decoration:none}
         .list-container,.list-header-container,.list-wrapper,a.back-link:hover,body{color:#24292e}
