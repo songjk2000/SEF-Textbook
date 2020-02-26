@@ -130,6 +130,7 @@
                     <input class="button" id="upload_file" type="file" name="upload_filename">
                     <input class="button" id="upload_submit" onclick="preup();" value="<?php echo getconstStr('Upload'); ?>" type="button">
                 <center>
+                <div>请通过txt文档Pull Request</div>
                 </div>
 <?php } else {
         if ($_SERVER['ishidden']<4) {
