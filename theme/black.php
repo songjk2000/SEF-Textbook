@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="<?php echo $_SERVER['base_disk_path'];?>favicon.ico" type="image/x-icon" />
     <style type="text/css">
         body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:1em;color:#4c4c4c;background-color:#0062AC;background-image:url("<?php echo getConfig('background')?getConfig('background'):($_SERVER['base_disk_path'].'background.jpg'); ?>");background-repeat:no-repeat;width:100％;height:100％;min－width:1000px;background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background－position:center0;}
-        a{color:#FFFFFF;cursor:pointer;text-decoration:none;}
+        a{color:#000000;cursor:pointer;text-decoration:none;}
         a:hover{color:#b3b3b3;}
         .login ion-icon{vertical-align:bottom;}
         .changelanguage{position:absolute;right:5px;}
@@ -20,11 +20,11 @@
         .list-container{background-color:#FFFFFF;position:relative;overflow:hidden;border-radius:15px;}
         .list-header-container{position:relative}
         .list-header-container a.back-link{color:#fdfdfd;display:inline-block;position:absolute;font-size:16px;margin:20px 10px;padding:10px 10px;vertical-align:middle;text-decoration:none}
-        .list-container,.list-header-container,.list-wrapper,a.back-link:hover,body{color:#FFF}
-        .table-header{margin:0;border:0 none;padding:30px 60px;text-align:left;font-weight:400;color:#FFF;background-color:rgba(245,245,245,0);word-break: break-all;word-wrap: break-word;}
+        .list-container,.list-header-container,.list-wrapper,a.back-link:hover,body{color:#000}
+        .table-header{margin:0;border:0 none;padding:30px 60px;text-align:left;font-weight:400;color:#000;background-color:rgba(245,245,245,0);word-break: break-all;word-wrap: break-word;}
         .list-body-container{position:relative;left:0;overflow-x:hidden;overflow-y:auto;box-sizing:border-box;background:rgba(245,245,245,0)}
         .more-disk{margin:0;border:0 none;padding:30px 30px;text-align:left;font-weight:400;color:#FFFFFF;background-color:rgba(85,85,85,0);}
-        .more-disk a{padding:5px;transition-duration: 0.4s;border-radius: 12px; background-color:rgba(144, 144, 144, 0.5); color:#ffffff; border: 2px solid rgba(85,85,85,0); }
+        .more-disk a{padding:5px;transition-duration: 0.4s;border-radius: 12px; background-color:rgba(144, 144, 144, 0.5); color:#000000; border: 2px solid rgba(85,85,85,0); }
         .more-disk a:hover{ background-color:#a0a0a0; color:#000000; }
         .list-table{width:100%;padding:0 20px 20px 20px;border-spacing:0}
         .list-table tr{height:40px}
