@@ -33,7 +33,7 @@
         .list-table tr[data-to]:hover{background:rgba(85,85,85,0.7);color:white;}
         .list-table tr[data-to]:hover a{color:white}
         .list-table tr:first-child{background:rgba(245,245,245,0)}
-        .list-table td,.list-table th{padding:0 10px;text-align:left}
+        .list-table td,.list-table th{padding:0;text-align:left}
         .list-table .size,.list-table .updated_at{text-align:right}
         .mask{position:absolute;left:0px;top:0px;width:100%;background-color:#000;filter:alpha(opacity=50);opacity:0.5;z-index:2;}
 <?php if ($_SERVER['admin']) { ?>
