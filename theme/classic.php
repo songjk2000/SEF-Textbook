@@ -18,7 +18,7 @@
         .title{text-align:center;height:10%;letter-spacing:2px;}
         .title a{color:#FFFFFF;text-decoration:none}
         .list-wrapper{width:80%;margin:0 auto 30px;position:relative;border-radius:15px;}
-        .list-container{background-color:#FFFFFF;min-height:80%;position:relative;overflow:hidden;border-radius:15px;}
+        .list-container{background-color:#FFFFFF;min-height:80;position:relative;overflow:hidden;border-radius:15px;}
         .list-header-container{position:relative}
         .list-header-container a.back-link{color:#000;display:inline-block;position:absolute;font-size:16px;margin:20px 10px;padding:10px 10px;vertical-align:middle;text-decoration:none}
         .list-container,.list-header-container,.list-wrapper,a.back-link:hover,body{color:#24292e}
@@ -339,7 +339,7 @@
                     echo 'Unknown path or file.';
                     echo json_encode($files, JSON_PRETTY_PRINT);
                 }
-
+                if (True) {
                     echo '
             </div>
         </div>
@@ -356,7 +356,7 @@
                     </div>
                 </div>
 ';
-                
+                }
                 if ($readme) {
                     echo '
             </div>
