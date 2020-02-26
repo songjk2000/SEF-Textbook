@@ -339,8 +339,7 @@
                     echo 'Unknown path or file.';
                     echo json_encode($files, JSON_PRETTY_PRINT);
                 }
-                if ($head) {
-                    echo '
+
             </div>
         </div>
     </div>
@@ -355,8 +354,7 @@
                         </textarea>
                     </div>
                 </div>
-';
-                }
+
                 if ($readme) {
                     echo '
             </div>
