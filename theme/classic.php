@@ -13,7 +13,7 @@
         body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:1em;color:#000;background-color:#0062ac;background-image:url("<?php echo getConfig('background')?getConfig('background'):($_SERVER['base_disk_path'].'background.jpg'); ?>");background-repeat:no-repeat;background-size:cover;background-size:100%;background-attachment:fixed}
         a{color:#24292e;cursor:pointer;text-decoration:none}
         ion-icon{font-size:15px;vertical-align:bottom}
-        .button{display:inline-block;color:#FFFFFF;cursor:pointer;padding:3px 7px;transition-duration: 0.4s;background-color:#0062AC;border:0;border-radius:3px;}
+        .button{display:inline-block;color:#FFFFFF;cursor:pointer;padding:3px 7px;transition-duration: 0.4s;background-color:#0062AC;border:0;border-radius:10px;}
         .changelanguage{position:absolute;right:5px;}
         .title{text-align:center;margin-top:1rem;letter-spacing:2px;margin-bottom:2rem}
         .title a{color:#FFFFFF;text-decoration:none}
