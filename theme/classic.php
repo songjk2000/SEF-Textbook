@@ -18,7 +18,7 @@
         .changelanguage{position:absolute;right:5px;}
         .title{text-align:center;height:10%;letter-spacing:2px;}
         .title a{color:#FFFFFF;text-decoration:none}
-        .list-wrapper{height:80%;width:80%;margin:0 auto;position:relative;border-radius:15px;}
+        .list-wrapper{min-height:80%;width:80%;margin:0 auto;position:relative;border-radius:15px;}
         .list-container{height:100%;background-color:#FFFFFF;position:relative;overflow:hidden;border-radius:15px;}
         .list-header-container{position:relative}
         .list-header-container a.back-link{color:#000;display:inline-block;position:absolute;font-size:16px;margin:20px 10px;padding:10px 10px;vertical-align:middle;text-decoration:none}
