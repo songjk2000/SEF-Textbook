@@ -10,15 +10,16 @@
     <link rel="icon" href="<?php echo $_SERVER['base_disk_path'];?>favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="<?php echo $_SERVER['base_disk_path'];?>favicon.ico" type="image/x-icon" />
     <style type="text/css">
-        body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:1em;color:#000;background-color:#0062ac;background-image:url("<?php echo getConfig('background')?getConfig('background'):($_SERVER['base_disk_path'].'background.jpg'); ?>");background-repeat:no-repeat;background-size:cover;background-size:100%;background-attachment:fixed}
+        html{height:100%;}
+        body{height:100%;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:1em;color:#000;background-color:#0062ac;background-image:url("<?php echo getConfig('background')?getConfig('background'):($_SERVER['base_disk_path'].'background.jpg'); ?>");background-repeat:no-repeat;background-size:cover;background-size:100%;background-attachment:fixed}
         a{color:#24292e;cursor:pointer;text-decoration:none}
         ion-icon{font-size:15px;vertical-align:bottom}
         .button{display:inline-block;color:#FFFFFF;cursor:pointer;padding:3px 7px;transition-duration: 0.4s;background-color:#0062AC;border:0;border-radius:10px;}
         .changelanguage{position:absolute;right:5px;}
         .title{text-align:center;height:10%;letter-spacing:2px;}
         .title a{color:#FFFFFF;text-decoration:none}
-        .list-wrapper{width:80%;margin:0 auto;position:relative;border-radius:15px;}
-        .list-container{background-color:#FFFFFF;position:relative;overflow:hidden;border-radius:15px;}
+        .list-wrapper{height:100%;width:80%;margin:0 auto;position:relative;border-radius:15px;}
+        .list-container{height:80%;background-color:#FFFFFF;position:relative;overflow:hidden;border-radius:15px;}
         .list-header-container{position:relative}
         .list-header-container a.back-link{color:#000;display:inline-block;position:absolute;font-size:16px;margin:20px 10px;padding:10px 10px;vertical-align:middle;text-decoration:none}
         .list-container,.list-header-container,.list-wrapper,a.back-link:hover,body{color:#24292e}
