@@ -9,7 +9,7 @@
     <link rel="icon" href="<?php echo $_SERVER['base_disk_path'];?>favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="<?php echo $_SERVER['base_disk_path'];?>favicon.ico" type="image/x-icon" />
     <style type="text/css">
-        body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:1em;color:#4c4c4c;background-color:#000000;background-image:url("<?php echo getConfig('background')?getConfig('background'):($_SERVER['base_disk_path'].'background.jpg'); ?>");background-repeat:no-repeat;width:100％;height:100％;min－width:1000px;background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background－position:center0;}
+        body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:1em;color:#4c4c4c;background-color:#0062AC;background-image:url("<?php echo getConfig('background')?getConfig('background'):($_SERVER['base_disk_path'].'background.jpg'); ?>");background-repeat:no-repeat;width:100％;height:100％;min－width:1000px;background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background－position:center0;}
         a{color:#FFFFFF;cursor:pointer;text-decoration:none;}
         a:hover{color:#b3b3b3;}
         .login ion-icon{vertical-align:bottom;}
