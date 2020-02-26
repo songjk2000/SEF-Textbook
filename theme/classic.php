@@ -13,10 +13,10 @@
         body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:1em;color:#000;background-color:#0062ac;background-image:url("<?php echo getConfig('background')?getConfig('background'):($_SERVER['base_disk_path'].'background.jpg'); ?>");background-repeat:no-repeat;background-size:cover;background-size:100%;background-attachment:fixed}
         a{color:#24292e;cursor:pointer;text-decoration:none}
         ion-icon{font-size:15px;vertical-align:bottom}
-        .button{display:inline-block;color:#1E90FF;cursor:pointer;padding:3px 7px;transition-duration: 0.4s;background-color:white;border:2px solid rgba(30,144,255,0.7); border-radius:3px;}
+        .button{display:inline-block;color:#FFFFFF;cursor:pointer;padding:3px 7px;transition-duration: 0.4s;background-color:#0062AC;border-radius:3px;}
         .changelanguage{position:absolute;right:5px;}
         .title{text-align:center;margin-top:1rem;letter-spacing:2px;margin-bottom:2rem}
-        .title a{color:#333;text-decoration:none}
+        .title a{color:#FFFFFF;text-decoration:none}
         .list-wrapper{width:80%;margin:0 auto 30px;position:relative;border-radius:15px;}
         .list-container{position:relative;overflow:hidden;border-radius:15px;}
         .list-header-container{position:relative}
@@ -37,7 +37,7 @@
         .mask{position:absolute;left:0px;top:0px;width:100%;background-color:#000;filter:alpha(opacity=50);opacity:0.5;z-index:2;}
 <?php if ($_SERVER['admin']) { ?>
         .operate{display:inline-table;margin:0;margin-right:5px;list-style:none}
-        .operate ul{position:absolute;display:none;background:#fffaaa;border:0px #f7f7f7 solid;border-radius:5px;margin:-7px 0 0 0;padding:0 7px;color:#205D67;z-index:1;}
+        .operate ul{position:absolute;display:none;background:#FFFFFF;border:0px #f7f7f7 solid;border-radius:5px;margin:-7px 0 0 0;padding:0 7px;color:#205D67;z-index:1;}
         .operate:hover ul{position:absolute;display:inline-table;}
         .operate ul li{padding:7px;list-style:none;display:block;}
         .list-table tr[data-to]:hover .operate ul li a{color:black}
@@ -45,7 +45,7 @@
         .operatediv{position:absolute;border:1px #CCCCCC;background-color:#FFFFCC;z-index:2;}
         .operatediv div{margin:16px}
         .operatediv_close{position:absolute;right:3px;top:3px;}
-        .readme{padding:8px;background-color:rgba(245,245,245,0.5);}
+        .readme{padding:8px;background-color:#FFFFFF;}
         .markdown-body{padding:20px;text-align:left}
         @media only screen and (max-width:480px){
             .title{margin-bottom:24px}
@@ -119,7 +119,7 @@
                     <ion-icon name="arrow-back"></ion-icon>
                 </a>
 <?php } ?>
-                <h3 class="table-header"><?php echo "当前路径" , str_replace('%23', '#', str_replace('&','&amp;', $path)); ?></h3>
+                <h3 class="table-header"><?php echo str_replace('%23', '#', str_replace('&','&amp;', $path)); ?></h3>
             </div>
             <div class="list-body-container">
 <?php
