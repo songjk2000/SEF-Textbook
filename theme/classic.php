@@ -10,7 +10,7 @@
     <link rel="icon" href="<?php echo $_SERVER['base_disk_path'];?>favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="<?php echo $_SERVER['base_disk_path'];?>favicon.ico" type="image/x-icon" />
     <style type="text/css">
-        body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:1em;color:#000;background-color:#f7f7f9;background-image:url("<?php echo getConfig('background')?getConfig('background'):($_SERVER['base_disk_path'].'background.jpg'); ?>");background-repeat:no-repeat;background-size:cover;background-size:100%;background-attachment:fixed}
+        body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;line-height:1em;color:#000;background-color:#0062ac;background-image:url("<?php echo getConfig('background')?getConfig('background'):($_SERVER['base_disk_path'].'background.jpg'); ?>");background-repeat:no-repeat;background-size:cover;background-size:100%;background-attachment:fixed}
         a{color:#24292e;cursor:pointer;text-decoration:none}
         ion-icon{font-size:15px;vertical-align:bottom}
         .changelanguage{position:absolute;right:5px;}
