@@ -357,7 +357,7 @@
                 </div>
 ';
                 }
-                if True {
+                if (True) {
                     echo '
             </div>
         </div>
