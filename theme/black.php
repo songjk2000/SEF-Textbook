@@ -548,11 +548,7 @@ setTime();
 setInterval('setTime()',500);
 </script>
 </body>
-<?php
-$ip = ($_SERVER["HTTP_VIA"]) ? $_SERVER["HTTP_X_FORWARDED_FOR"] : $_SERVER["REMOTE_ADDR"];
-$ip = ($ip) ? $ip : $_SERVER["REMOTE_ADDR"];
-echo '当前IP: ' ,$ip, "\n";
-?></center>
+</center>
 </body>
 <?php if ($files) { ?>
 <?php if ($head||$readme) { ?><link rel="stylesheet" href="//unpkg.zhimg.com/github-markdown-css@3.0.1/github-markdown.css">
