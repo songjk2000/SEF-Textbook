@@ -324,7 +324,7 @@ $constStr = [
     ],
     'Upload' => [
         'en-us' => 'Upload',
-        'zh-cn' => '上传',
+        'zh-cn' => '提交',
         'ja' => 'アップロードする',
         'ko-kr' => '업로드',
     ],
@@ -396,19 +396,19 @@ $constStr = [
     ],
     'GetUploadLink' => [
         'en-us' => 'Get Upload Link',
-        'zh-cn' => '获取上传链接',
+        'zh-cn' => '获取提交链接',
         'ja' => 'アップロードリンクを取得',
         'ko-kr' => '업로드 링크 받기',
     ],
     'UpFileTooLarge' => [
         'en-us' => 'The File is too Large!',
-        'zh-cn' => '文件过大，终止上传。',
+        'zh-cn' => '文件过大，终止提交。',
         'ja' => '超えると、アップロードは終了します。',
         'ko-kr' => '파일이 너무 커서 업로드가 종료되었습니다.',
     ],
     'UploadStart' => [
         'en-us' => 'Upload Start',
-        'zh-cn' => '开始上传',
+        'zh-cn' => '开始提交',
         'ja' => 'アップロードを開始',
         'ko-kr' => '업로드 시작',
     ],
@@ -426,7 +426,7 @@ $constStr = [
     ],
     'LastUpload' => [
         'en-us' => 'Last time Upload',
-        'zh-cn' => '上次上传',
+        'zh-cn' => '上次提交',
         'ja' => '上回は',
         'ko-kr' => '마지막 업로드',
     ],
@@ -456,19 +456,19 @@ $constStr = [
     ],
     'UploadErrorUpAgain' => [
         'en-us' => 'Maybe error, do upload again.',
-        'zh-cn' => '可能出错，重新上传。',
+        'zh-cn' => '可能出错，重新提交。',
         'ja' => '間違っている可能性があります。もう一度アップロードしてください。',
         'ko-kr' => '잘못되었을 수 있습니다. 다시 업로드하십시오.',
     ],
     'UploadComplete' => [
         'en-us' => 'Upload Complete',
-        'zh-cn' => '上传完成',
+        'zh-cn' => '需求成功提交',
         'ja' => 'アップロード完了',
         'ko-kr' => '업로드 완료',
     ],
     'UploadFail23' => [
         'en-us' => 'Upload Fail, contain #.',
-        'zh-cn' => '目录或文件名含有#，上传失败。',
+        'zh-cn' => '目录或文件名含有#，提交失败。',
         'ja' => 'ディレクトリまたはファイル名に＃が含まれています。アップロードに失敗しました。',
         'ko-kr' => '디렉토리 또는 파일 이름에 #이 포함되어 있습니다. 업로드하지 못했습니다.',
     ],
