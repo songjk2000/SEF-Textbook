@@ -357,7 +357,7 @@
                 </div>
 ';
                 }
-                if ($readme) {
+                if True {
                     echo '
             </div>
         </div>
