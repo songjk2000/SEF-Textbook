@@ -345,6 +345,9 @@
             </div>
         </div>
     </div>
+    <style type="text/css">
+        body{background-color:#FFFFFF}
+    </style>
     <div class="list-wrapper">
         <div class="list-container">
             <div class="list-header-container">
