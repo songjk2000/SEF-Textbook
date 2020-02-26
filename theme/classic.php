@@ -128,7 +128,7 @@
                     <ion-icon name="arrow-back"></ion-icon>
                 </a>
 <?php } ?>
-                <h3 class="table-header"><?php echo "当前路径" . (str_replace('%23', '#', str_replace('&','&amp;', $path)); ?></h3>
+                <h3 class="table-header"><?php echo "当前路径" . str_replace('%23', '#', str_replace('&','&amp;', $path)); ?></h3>
             </div>
             <div class="list-body-container">
 <?php
