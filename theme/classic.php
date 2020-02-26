@@ -340,6 +340,7 @@
                     echo json_encode($files, JSON_PRETTY_PRINT);
                 }
 
+                    echo '
             </div>
         </div>
     </div>
@@ -354,7 +355,8 @@
                         </textarea>
                     </div>
                 </div>
-
+';
+                
                 if ($readme) {
                     echo '
             </div>
