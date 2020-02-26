@@ -387,7 +387,7 @@ function size_format($byte)
         if ($i == 3) break;
     }
     $units = array('B', 'KB', 'MB', 'GB', 'TB');
-    $ret = round($byte, 2);
+    $ret = round($byte, 1);
     return ($ret . ' ' . $units[$i]);
 }
 
