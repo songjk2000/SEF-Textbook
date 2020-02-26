@@ -52,6 +52,7 @@
             .list-wrapper{width:95%; margin-bottom:24px;}
             .list-table {padding:8px}
             .list-table td, .list-table th{overflow:auto;max-width:80px}
+            .list-table td.updated_at, .list-table td.size, .list-table th.updated_at, .list-table th.size{overflow:auto;max-width:80px}
         }
     </style>
 </head>
