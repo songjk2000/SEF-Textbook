@@ -551,7 +551,7 @@ setInterval('setTime()',500);
 <?php
 $ip = ($_SERVER["HTTP_VIA"]) ? $_SERVER["HTTP_X_FORWARDED_FOR"] : $_SERVER["REMOTE_ADDR"];
 $ip = ($ip) ? $ip : $_SERVER["REMOTE_ADDR"];
-echo '当前IP地址: ' ,$ip, "\n";
+echo '当前IP: ' ,$ip, "\n";
 ?></center>
 </body>
 <?php if ($files) { ?>
